@@ -1,0 +1,17 @@
+i.icon {
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  min-width: 0.5rem;
+  min-height: 0.5rem;
+  display: inline-block;
+
+  &.icon-logo {
+    mask: url('../img/icons/auma_r.svg') no-repeat center / contain;
+    -webkit-mask: url('../img/icons/auma_r.svg') no-repeat center / contain;
+  }
+  &.icon-arrow-down {
+    mask: url('../img/arrow-90deg-down.svg') no-repeat center / contain;
+    -webkit-mask: url('../img/arrow-90deg-down.svg') no-repeat center / contain;
+  }
+}
